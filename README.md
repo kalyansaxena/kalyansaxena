@@ -2,21 +2,35 @@
 ```javascript
 const developer = {
   name: "Kalyan Saxena M.",
+  role: "Senior Software Engineer @ Evoke",
   skills: {
-    languages: ["JavaScript", "Python"],
+    languages: ["JavaScript", "TypeScript", "Python"],
     frontend: {
-      js: ["React", "Angular"],
+      js: ["React"],
       css: ["Tailwind CSS"]
     },
     backend: {
-      js: ["NodeJS", "ExpressJS"],
-      databases: ["MongoDB", "MySQL"],
-      serverless: ["mongo-realm", "aws-lambda"],
-      misc: ["Firebase", "AWS"]
+      js: ["Node.js", "Express.js"],
+      databases: ["MongoDB", "MySQL", "SQL"],
+      cloud: ["AWS"],
+      serverless: ["AWS Lambda", "MongoDB Realm"],
+      misc: ["Git", "GitHub"]
     }
   },
-  background: ["Freelancer - MERN Stack", "Ex: TCSer", "CSE student", "U-14, U-16 cricket player"],
-  hobbies: ["Content creation on YouTube", "Exploring new technologies", "Playing cricket", "Traveling"]
+  background: [
+    "Senior Software Engineer @ Evoke",
+    "Ex-Clario (Channelsoft Inc)",
+    "Freelancer - MERN Stack",
+    "Ex: TCSer",
+    "CSE Student",
+    "U-14 & U-16 Cricket Player"
+  ],
+  hobbies: [
+    "Creating content on YouTube",
+    "Exploring new technologies",
+    "Playing cricket",
+    "Traveling"
+  ]
 }
 ```
 <br>
